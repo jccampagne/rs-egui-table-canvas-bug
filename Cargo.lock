@@ -3947,3 +3947,13 @@ dependencies = [
  "syn",
  "winnow",
 ]
+
+[[patch.unused]]
+name = "eframe"
+version = "0.33.3"
+source = "git+https://github.com/emilk/egui?branch=main#c89a4d1b38460cd58e25db5761355b837e57b719"
+
+[[patch.unused]]
+name = "egui"
+version = "0.33.3"
+source = "git+https://github.com/emilk/egui?branch=main#c89a4d1b38460cd58e25db5761355b837e57b719"
